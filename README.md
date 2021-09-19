@@ -4,6 +4,7 @@
 JavaSE+JDBC设计一个使用控制台操作的简易购物系统
 
 #  :heavy_exclamation_mark: 源码
+直接下载本文件夹即可
 
 
 # 需要导入的包
@@ -172,6 +173,14 @@ select * from userInformation;
 select * from commodityTypes
 select * from commodityInformation;
 ```
+## 用户信息
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0920/003437_6e8b126a_8254421.png "用户信息.png")
+## 用户角色
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0920/003451_ecb39af5_8254421.png "用户角色.png")
+## 商品类型
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0920/003458_bac47e93_8254421.png "商品类型.png")
+## 商品信息
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0920/003505_f1e86819_8254421.png "商品信息.png")
 
 # 主要功能
 
