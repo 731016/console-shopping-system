@@ -288,7 +288,7 @@ public class JDBCUtils {
 ```
 
 ## pojo层
-数据库中的表对应的实体类:
+数据库中的表对应的实体类:<br>
 [用户信息表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/UserInformation.java)<br>
 [用户角色表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/UserRole.java)<br>
 [商品信息表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/CommodityInformation.java)<br>
