@@ -289,13 +289,13 @@ public class JDBCUtils {
 
 ## pojo层
 数据库中的表对应的实体类:
- **用户信息表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/UserInformation.java)<br>
- **用户角色表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/UserRole.java)<br>
- **商品信息表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/CommodityInformation.java)<br>
- **商品类型表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/CommodityTypes.java)<br>
- **购物车表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/ShopCar.java)<br>
- **订单表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/Order.java)<br>
- **订单明细表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/OrderDetails.java)<br>
+[用户信息表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/UserInformation.java)<br>
+[用户角色表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/UserRole.java)<br>
+[商品信息表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/CommodityInformation.java)<br>
+[商品类型表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/CommodityTypes.java)<br>
+[购物车表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/ShopCar.java)<br>
+[订单表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/Order.java)<br>
+[订单明细表](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/OrderDetails.java)<br>
 
 ## dao层
 ###  :one: UserInformationDao接口
