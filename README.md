@@ -188,6 +188,19 @@ select * from commodityInformation;
 4.  **ui** 层 测试代码
 5.  **pojo** 层 数据库映射表
 
+# 界面展示
+![买家注册功能](https://images.gitee.com/uploads/images/2021/0920/002507_b4f17af1_8254421.png "1买家注册功能.png")
+![商家注册功能](https://images.gitee.com/uploads/images/2021/0920/002523_4982c0ba_8254421.png "2商家注册功能.png")
+![商家登录首页](https://images.gitee.com/uploads/images/2021/0920/002531_192c9dde_8254421.png "3商家登录首页.png")
+![买家登录首页](https://images.gitee.com/uploads/images/2021/0920/002540_0313519b_8254421.png "4买家登录首页.png")
+![买家查看商品列表](https://images.gitee.com/uploads/images/2021/0920/002547_d2ec8d85_8254421.png "5买家查看商品列表.png")
+![买家加入购物车-继续购物](https://images.gitee.com/uploads/images/2021/0920/002554_476376da_8254421.png "6买家加入购物车-继续购物.png")
+![买家购物完成](https://images.gitee.com/uploads/images/2021/0920/002604_5cf26741_8254421.png "7买家购物完成.png")
+![买家结算订单](https://images.gitee.com/uploads/images/2021/0920/002655_9a14cae4_8254421.png "买家结算订单.png")
+![买家查看订单信息](https://images.gitee.com/uploads/images/2021/0920/002612_b861a282_8254421.png "8买家查看订单信息.png")
+![买家查看订单明细](https://images.gitee.com/uploads/images/2021/0920/002620_6abe33ca_8254421.png "9买家查看订单明细.png")
+
+
 ## db.properties
 本数据库配置文件与 **src** 同级
 ```properties
@@ -267,13 +280,13 @@ public class JDBCUtils {
 
 ## pojo层
 数据库中的表对应的实体类:
- **用户信息表** [输入链接说明](http://)<br>
- **用户角色表** [输入链接说明](http://)<br>
- **商品信息表** [输入链接说明](http://)<br>
- **商品类型表** [输入链接说明](http://)<br>
- **购物车表** [输入链接说明](http://)<br>
- **订单表** [输入链接说明](http://)<br>
- **订单明细表** [输入链接说明](http://)<br>
+ **用户信息表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/UserInformation.java)<br>
+ **用户角色表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/UserRole.java)<br>
+ **商品信息表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/CommodityInformation.java)<br>
+ **商品类型表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/CommodityTypes.java)<br>
+ **购物车表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/ShopCar.java)<br>
+ **订单表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/Order.java)<br>
+ **订单明细表** [输入链接说明](https://gitee.com/LovelyHzz/console-shopping-system/blob/master/src/com/onlinestore/pojo/OrderDetails.java)<br>
 
 ## dao层
 ###  :one: UserInformationDao接口
