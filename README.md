@@ -214,8 +214,8 @@ select * from commodityInformation;
 本数据库配置文件与 **src** 同级
 ```properties
 #通过反射获取获取包
-driverClassName=com.mysql.jdbc.Driver
-
+driverClassName=com.mysql.jc.jdbc.Driver #8.0
+#driverClassName=com.mysql.jdbc.Driver #5.0 数据库版本
 # localhost 本地服务器
 # 3306 端口
 # demo 数据库名
